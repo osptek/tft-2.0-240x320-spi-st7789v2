@@ -31,7 +31,7 @@
 
 OSPTEK **2.0″ 240×320 TFT (IPS)** is a **SPI** color display module driven by **ST7789V2**. Suited to handheld devices, instruments, and compact portrait HMI.
 
-Spec ID (repository name): `2.0-tft-240x320-spi-st7789v2`
+Spec ID (repository name): `tft-2.0-240x320-spi-st7789v2`
 
 Current module version: **YDP200HB001-P8**. Outline details follow [`docs/YDP200HB001-P8_外形图.pdf`](./docs/YDP200HB001-P8_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
 
@@ -51,12 +51,12 @@ Current module version: **YDP200HB001-P8**. Outline details follow [`docs/YDP200
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · ST7789V2 SPI + LVGL9 (heart-rate dial UI demo) | [`examples/esp32s3-2.0-tft-240x320-spi-st7789v2-bringup/`](./examples/esp32s3-2.0-tft-240x320-spi-st7789v2-bringup/) |
+| ESP32-S3 · ST7789V2 SPI + LVGL9 (heart-rate dial UI demo) | [`examples/esp32s3-tft-2.0-240x320-spi-st7789v2-bringup/`](./examples/esp32s3-tft-2.0-240x320-spi-st7789v2-bringup/) |
 
 ## Repository layout
 
 ```text
-2.0-tft-240x320-spi-st7789v2/                                # repo root (nav: ../../README_EN.md)
+tft-2.0-240x320-spi-st7789v2/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP200HB001-P8/                                # full materials for this part number
         ├── README.md
@@ -78,7 +78,7 @@ Current module version: **YDP200HB001-P8**. Outline details follow [`docs/YDP200
 
 ### Samples
 
-- [ESP32-S3 ST7789V2 SPI + LVGL9 bringup](./examples/esp32s3-2.0-tft-240x320-spi-st7789v2-bringup/)
+- [ESP32-S3 ST7789V2 SPI + LVGL9 bringup](./examples/esp32s3-tft-2.0-240x320-spi-st7789v2-bringup/)
 
 ## Buy
 

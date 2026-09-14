@@ -29,7 +29,7 @@ This repository holds materials for the **2.0″ 240×320 TFT (SPI · ST7789V2)*
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `2.0-tft-240x320-spi-st7789v2`
+Repo id: `tft-2.0-240x320-spi-st7789v2`
 
 ---
 

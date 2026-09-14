@@ -31,7 +31,7 @@
 
 OSPTEK **2.0 寸 240×320 TFT（IPS）** 是一款 **SPI** 接口彩色显示模组，显示驱动为 **ST7789V2**。适合手持终端、仪表与小型竖屏 HMI 等场景。
 
-规格标识（仓库名）：`2.0-tft-240x320-spi-st7789v2`
+规格标识（仓库名）：`tft-2.0-240x320-spi-st7789v2`
 
 当前模组版本：**YDP200HB001-P8**。外形细节以 [`docs/YDP200HB001-P8_外形图.pdf`](./docs/YDP200HB001-P8_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
 
@@ -51,12 +51,12 @@ OSPTEK **2.0 寸 240×320 TFT（IPS）** 是一款 **SPI** 接口彩色显示模
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · ST7789V2 SPI + LVGL9（心率表盘 UI 演示） | [`examples/esp32s3-2.0-tft-240x320-spi-st7789v2-bringup/`](./examples/esp32s3-2.0-tft-240x320-spi-st7789v2-bringup/) |
+| ESP32-S3 · ST7789V2 SPI + LVGL9（心率表盘 UI 演示） | [`examples/esp32s3-tft-2.0-240x320-spi-st7789v2-bringup/`](./examples/esp32s3-tft-2.0-240x320-spi-st7789v2-bringup/) |
 
 ## 仓库结构
 
 ```text
-2.0-tft-240x320-spi-st7789v2/                                # 仓库根（导航见 ../../README.md）
+tft-2.0-240x320-spi-st7789v2/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── YDP200HB001-P8/                                # 本料号完整资料
         ├── README.md
@@ -78,7 +78,7 @@ OSPTEK **2.0 寸 240×320 TFT（IPS）** 是一款 **SPI** 接口彩色显示模
 
 ### 示例工程
 
-- [ESP32-S3 ST7789V2 SPI + LVGL9 bringup](./examples/esp32s3-2.0-tft-240x320-spi-st7789v2-bringup/)
+- [ESP32-S3 ST7789V2 SPI + LVGL9 bringup](./examples/esp32s3-tft-2.0-240x320-spi-st7789v2-bringup/)
 
 ## 购买链接
 
