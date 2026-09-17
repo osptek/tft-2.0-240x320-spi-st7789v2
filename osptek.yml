@@ -1,0 +1,14 @@
+id: tft-2.0-240x320-spi-st7789v2
+category: displays
+
+size: "2.0"
+panel: tft
+resolution: 240x320
+interface: [spi]
+shape: rect
+
+versions:
+  - id: YDP200HB001-P8
+    driver: ST7789V2
+    touch: none
+    note: none
